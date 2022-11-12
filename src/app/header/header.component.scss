@@ -1,0 +1,20 @@
+.header-wrapper {
+  background: #342e75;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  color: white;
+  font-size: 2.5em;
+  .purple-text {
+    color: purple;
+  }
+  align-self: flex-start;
+}
+
+.login-button {
+  align-self: flex-end;
+  max-height: 2em;
+  min-width: 6em;
+}
