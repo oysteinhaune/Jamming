@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AgGridModule } from 'ag-grid-angular';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { PlaylistComponent } from './playlist/playlist.component';
@@ -18,7 +17,7 @@ import { SearchComponent } from './search/search.component';
     PlaylistComponent,
     SearchComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, AgGridModule, HttpClientModule],
+  imports: [BrowserModule, AgGridModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
