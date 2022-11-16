@@ -1,20 +1,29 @@
 .header-wrapper {
   background: #342e75;
+  height: 5vh;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.header-title {
+.header-title-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  transform: translateX(2vh);
   color: white;
-  font-size: 2.5em;
+  font-size: 1em;
   .purple-text {
     color: purple;
   }
-  align-self: flex-start;
 }
 
-.login-button {
-  align-self: flex-end;
-  max-height: 2em;
-  min-width: 6em;
+.logout-button-wrapper {
+  padding-right: 2vh;
+  button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }

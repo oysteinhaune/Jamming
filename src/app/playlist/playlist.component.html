@@ -1,10 +1,12 @@
-<label for="Playlist">New Playlist Name</label>
-<input name="Playlist" type="text" />
+<div class="playlist-wrapper">
+  <label class="playlist-headline" for="Playlist">New Playlist Name</label>
+  <input name="Playlist" type="text" />
 
-<ag-grid-angular
-  style="width: 500px; height: 200px"
-  class="ag-theme-alpine"
-  [rowData]="rowData"
-  [columnDefs]="columnDefs"
->
-</ag-grid-angular>
+  <ag-grid-angular
+    style="width: 500px; height: 200px"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+  >
+  </ag-grid-angular>
+</div>

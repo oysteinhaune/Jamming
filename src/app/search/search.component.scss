@@ -1,6 +1,21 @@
 .search-wrapper {
-  height: 10vw;
   display: flex;
+  justify-content: center;
   align-items: center;
-  align-content: center;
+  height: 8vh;
+}
+
+.search-button-wrapper {
+  button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.input-wrapper {
+  input {
+    padding: 6px;
+  }
 }
